@@ -172,3 +172,13 @@ Get the items in collection
 ```
 db.products.find()
 ```
+
+To Exit mongodb
+```
+exit
+```
+
+To check the catalogue logs
+```
+journalctl -u catalogue
+``
