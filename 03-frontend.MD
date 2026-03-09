@@ -148,3 +148,9 @@ ls -l
 less access.log
 ```
 shift+g -> Goto botom logs
+
+```
+less /var/log/messages
+```
+
+
