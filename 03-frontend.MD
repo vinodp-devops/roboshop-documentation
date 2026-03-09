@@ -134,3 +134,17 @@ Restart Nginx Service to load the changes of the configuration.
 ```shell 
 systemctl restart nginx 
 ```
+
+[OPTIONAL]
+- once you reach ddaws.online
+
+To check frontend logs
+```
+cd /var/log/ngnix
+ls -l
+```
+
+```
+less access.log
+```
+shift+g -> Goto botom logs
