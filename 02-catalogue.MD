@@ -181,4 +181,11 @@ exit
 To check the catalogue logs
 ```
 journalctl -u catalogue
-``
+```
+
+To check the catalog logs
+```
+journalctl -u catalogue -f
+```
+
+
