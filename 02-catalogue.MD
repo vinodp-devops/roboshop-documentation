@@ -173,6 +173,16 @@ Get the items in collection
 db.products.find()
 ```
 
+Fetch one entry
+```
+ db.products.findOne()
+```
+
+Fetch limit of 10 entries with format pretty 
+```
+ db.products.find().limit(10).pretty()
+```
+
 To Exit mongodb
 ```
 exit
