@@ -140,7 +140,7 @@ systemctl restart nginx
 
 To check frontend logs
 ```
-cd /var/log/ngnix
+cd /var/log/nginx
 ls -l
 ```
 
