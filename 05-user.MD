@@ -107,3 +107,22 @@ Start the service.
 systemctl enable user 
 systemctl start user
 ```
+
+[OPTIONAL] Check Status
+```
+ netstat -lntp
+```
+
+```
+systemctl status user
+```
+
+```
+telnet redis.ddaws88s.online 6379
+```
+To escape `Ctrl+]` & `quit`
+
+Health check
+```
+curl http://localhost:8080/health
+```
