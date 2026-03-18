@@ -134,3 +134,14 @@ This service needs a restart because it is dependent on schema, After loading sc
 systemctl restart shipping
 ```
 
+[OPTIONAL] 
+```
+journalctl -u shipping
+```
+```
+journalctl -u shipping -f
+```
+
+
+
+
