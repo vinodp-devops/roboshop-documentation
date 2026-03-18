@@ -134,14 +134,24 @@ This service needs a restart because it is dependent on schema, After loading sc
 systemctl restart shipping
 ```
 
-[OPTIONAL] 
+[OPTIONAL Checks] 
 ```
 journalctl -u shipping
 ```
 ```
 journalctl -u shipping -f
 ```
-
+```
+curl http://localhost:8080/health
+```
+CURL Reference 
+```
+curl --help
+```
+CURL Info about component status
+```
+curl -v http://localhost:8080/health
+```
 
 
 
