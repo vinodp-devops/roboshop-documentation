@@ -152,5 +152,15 @@ shift+g -> Goto botom logs
 ```
 less /var/log/messages
 ```
+If any service or components is not working means check latest logs in Frontend Component
+```
+cd /var/log/nginx/
+tail -f error.log
+```
+
+<b>50X.html</b>
+```
+
+```
 
 
